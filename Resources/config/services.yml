@@ -1,0 +1,10 @@
+parameters:
+    edgar_ez_qrcode.twig.extension.class: EdgarEz\QRCodeBundle\Twig\Extension\QRCodeTwigExtension
+
+services:
+    edgar_ez_qrcode.twig.extension:
+        class: %edgar_ez_qrcode.twig.extension.class%
+        arguments:
+            - %kernel.root_dir%/../web/bundles/edgarezqrcode/images
+        tags:
+            - { name: twig.extension }
