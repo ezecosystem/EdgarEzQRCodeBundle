@@ -41,8 +41,16 @@ php ezpublish/console assets:install
 ### How to use
 
 ```html
+// Text to QRCodize
 <img src="{{ asset(eez_qrcode('foo')) }}"" />
+
+// Level of error correction (3 by default, should be at least 0, maximum 3)
+<img src="{{ asset(eez_qrcode('foo', 3)) }}"" />
+
+// Size of QRCode image
+<img src="{{ asset(eez_qrcode('foo', 3, 4)) }}"" />
+
+// Margin of QRCode image
+<img src="{{ asset(eez_qrcode('foo', 3, 4, 5)) }}"" />
 ```
 
-
-### This bundle is still in beta version!
