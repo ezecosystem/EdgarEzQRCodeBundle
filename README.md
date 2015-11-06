@@ -1,5 +1,11 @@
 # EdgarEzQRCodeBundle
 
+[![Latest Stable Version](https://poser.pugx.org/edgarez/qrcodebundle/v/stable)](https://packagist.org/packages/edgarez/qrcodebundle) 
+[![Total Downloads](https://poser.pugx.org/edgarez/qrcodebundle/downloads)](https://packagist.org/packages/edgarez/qrcodebundle)
+[![Daily Downloads](https://poser.pugx.org/edgarez/qrcodebundle/d/daily)](https://packagist.org/packages/edgarez/qrcodebundle)
+[![Latest Unstable Version](https://poser.pugx.org/edgarez/qrcodebundle/v/unstable)](https://packagist.org/packages/edgarez/qrcodebundle) 
+[![License](https://poser.pugx.org/edgarez/qrcodebundle/license)](https://packagist.org/packages/edgarez/qrcodebundle)
+
 > Use Ariel Ferrandini PHPQRCode library (https://github.com/aferrandini/PHPQRCode)
 
 
